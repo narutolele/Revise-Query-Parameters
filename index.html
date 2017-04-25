@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询参数</title>
+    <script src="bom.js"></script>
+</head>
+<body>
+    <button class="a1">泥嚎</button>
+    <button class="a2">再见</button>
+<script>
+    let a1=document.querySelector('.a1');
+    let a2=document.querySelector('.a2');
+    a1.onclick=function(){
+        $.bom.search('a','泥嚎');
+    }
+    a2.onclick=function(){
+        $.bom.search('a','再见');
+    }
+</script>
+</body>
+</html>
